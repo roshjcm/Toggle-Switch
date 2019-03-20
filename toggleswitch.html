@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8"> <!-- The charset attribute specifies the character encoding for the HTML document. UTF-8 corresponds to character encoding for unicode. -->
+	<title>Switch</title>
+    <link rel="stylesheet" href="main.css" />
+
+</head>
+<body>
+
+	<div class="container">
+
+		<div class="switch white">
+
+			<input type="radio" name="switch" id="switch-off"> <!-- type radio defines a radio button => only one option can be selected at the same time which is what we want for a toggle switch -->
+			<input type="radio" name="switch" id="switch-on" checked>
+            <!-- checked attribute can be used for input type radio or type checkbox. Says that the input should be checked when page loads -->
+
+			<label for="switch-off">Off</label> <!-- the label appearing on screen will say "Off" --> 
+			<label for="switch-on">On</label>   <!-- same for "On" -->
+
+			<span class="toggle"></span>
+
+		</div> <!-- end switch -->
+
+	</div> <!-- end container -->
+	
+</body>
+</html>
