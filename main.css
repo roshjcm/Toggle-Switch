@@ -1,12 +1,11 @@
 @charset "utf-8";
-/* CSS Document */
 
 /* ---------- GENERAL ---------- */
 
 body {
 	background:#6495ED; 
 	color: #151515,
-	font: 100%/1.5em "Lato", sans-serif;
+	font: 100%/1.5em "Courier New", monospace; /* 1em = 12pt = 16px = 100% so here 1.5em would be 18pt. Em is used in web document media. */
 	margin: 0;
 }
 
@@ -46,7 +45,7 @@ input[type="radio"] {
 	color: #fff;
 	font-size: 65px; /* increase to increase the size of the label */
 	font-weight: 700; /* normal = 400; bold = 700; increase the number or decrease it for the label to get bolder/lighter */
-    font-family: "Courier New", Courier, monospace;
+    	font-family: "Courier New", Courier, monospace;
 	line-height: 80px; /* increasing it makes the words "off" "on" go down */
 	text-transform: uppercase;
 	-webkit-transition: color .2s ease;
@@ -65,7 +64,7 @@ input[type="radio"] {
 
 .switch label:nth-of-type(2) {
 	position: absolute;
-  right: -55%; /* increasing it makes the words "on" go further to the right from the switch */
+  	right: -55%; /* increasing it makes the words "on" go further to the right from the switch */
 	text-align: left;
 }
 
