@@ -4,9 +4,16 @@
 
 body {
 	background:#6495ED; 
-	color: #151515,
+	color: #151515;
 	font: 100%/1.5em "Courier New", monospace; /* 1em = 12pt = 16px = 100% so here 1.5em would be 18pt. Em is used in web document media. */
 	margin: 0;
+}
+
+h1 {
+    color:#fff;
+    font: 1em "Courier New", monospace;
+    line-height: 100px;
+    text-align: center;
 }
 
 input {
